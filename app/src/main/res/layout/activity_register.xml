@@ -20,7 +20,7 @@
         android:layout_height="wrap_content"
         android:accessibilityLiveRegion="polite"
         android:fontFamily="sans-serif-black"
-        android:text="Register"
+        android:text="@string/reg"
         android:textAppearance="@style/TextAppearance.AppCompat.Display1"
         android:textColor="#0C0C0C"
         tools:layout_editor_absoluteX="31dp"
@@ -40,7 +40,7 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="phone"
-        android:text="Phone Number"
+        android:text="@string/number"
         tools:layout_editor_absoluteX="52dp"
         tools:layout_editor_absoluteY="293dp" />
 
@@ -50,7 +50,7 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="User Name"
+        android:text="@string/name"
         tools:layout_editor_absoluteX="52dp"
         tools:layout_editor_absoluteY="357dp" />
 
@@ -72,14 +72,14 @@
         android:inputType="textEmailAddress"
         tools:layout_editor_absoluteX="52dp"
         tools:layout_editor_absoluteY="471dp"
-        tools:text="Email Address" />
+        tools:text="@string/emil" />
 
     <Button
         android:id="@+id/button4"
         android:layout_width="190dp"
         android:layout_height="47dp"
         android:background="#BEA0C3"
-        android:text="Register"
+        android:text="@string/regbtt"
         tools:layout_editor_absoluteX="109dp"
         tools:layout_editor_absoluteY="535dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
